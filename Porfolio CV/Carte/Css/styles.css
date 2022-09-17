@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Titillium+Web:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../Image/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    min-height: 100vh;
+}
+aside {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 300px;
+    height: 100vh;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    font-family: 'Anton', sans-serif;
+    color: #26577E;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+a:hover{
+    font-size: 30px;
+    transition: 0.5s;
+}
+.special{
+    background-color: #26577E;
+    color: white;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+div{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+div h1 {
+    margin: 0;
+}
+div h3 {
+    color: #feab51;
+    margin: 0;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+.container{
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-image: url("../Image/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: calc(100vh - 102px);
+}
+.content {
+    font-size: 25px;
+    margin: auto;
+    max-width: 100%;
+}
+
+h1 {
+    color: rgb(184, 55, 55);
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    justify-content: space-around;
+}
+.head{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+}
+a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.high{
+    background-color: rgb(184, 55, 55);
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer strong {
+    color: rgb(184, 55, 55);
+}
+
+footer p {
+    margin: 0;
+}
+

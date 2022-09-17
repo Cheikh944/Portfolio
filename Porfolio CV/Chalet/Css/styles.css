@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 200vh;
+}
+header{
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.header-top{
+    font-size: larger;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+}
+a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+}
+.ill{
+    height: 60vh;
+    width: 100%;
+}
+.illustr{
+    height: 100vh;
+    width: 100%;
+}
+.dess{
+    position: absolute;
+    margin-left: 170px;
+    background-color: #F8EDEA;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.im1{
+    position: absolute;
+    height: 700px ;
+    width: 50%;
+    margin-top: 150px;
+}
+img{
+    height: 450px;
+}
+.im2{
+    position: absolute;
+    height: 700px ;
+    width: 50%;
+    margin-left: 672px;
+    margin-top: 150px;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    position: absolute;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+}
